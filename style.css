@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cores {
+    color: hsl(185, 75%, 39%),
+    hsl(229, 23%, 23%),
+    hsl(227, 10%, 46%),
+    hsl(0, 0%, 59%);
+}
+
+body{
+    max-width: 1440px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: hsl(185, 75%, 39%);
+    color: hsl(227, 10%, 46%);
+    overflow: hidden;
+}
+
+.bg-top{
+    position: absolute;
+    right: 53%;
+    bottom: 41%;
+}
+
+.bg-bottom{
+    position: absolute;
+    left: 49%;
+    top: 40%;
+}
+
+.container{
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.card-img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.img-victor {
+    margin-top: -16%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.info{
+    margin: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+strong{
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.city{
+    margin: 8px 0 20px 0;
+}
+
+hr{
+    border-width: 0;
+    height: 1px;
+    background-color: hsla(0, 0%, 59%, 0.39);
+}
+
+.detail{
+    width: 270px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 0 30px;
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+}
